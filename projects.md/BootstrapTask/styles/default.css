@@ -1,0 +1,105 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#webpage
+{
+    margin-left: 10px;
+    float: left;
+}
+#icons
+{
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    float: right;
+    text-decoration: none;
+}
+
+#top
+{
+background-color:teal
+
+} 
+.img-circle{
+margin-top: 10px;
+}
+
+h2,h4,h5,p{
+    color: white;
+    text-justify: auto;
+  }
+.navbar{
+    margin-bottom: 2px;
+}
+.img-circle
+{
+    margin-bottom: 10px;
+}
+#Navigation{
+    float: right;
+    background-color: aliceblue;
+
+  }
+img{
+    align-content: center;
+}
+#image1{
+    background-color: blanchedalmond;
+}
+#image2{
+    background-color: beige;
+}
+#image3{
+    background-color: blanchedalmond;
+}
+#about{
+    background-color:teal;
+
+}
+
+#msg{
+    height: 125px;
+}
+
+#downloadBootstrap
+{
+    color: teal;
+}
+
+#SendButton
+{
+    background-color: teal;
+    color: white;
+    align-content: left;
+}
+#bottomView{
+    background-color: #333;
+}
+#getStartBootstrap{
+    color:cyan;
+}
+#bottomView2{
+    background-color:black;
+}
+.divider {
+    width: 20%;
+    height: 20px;
+    border-bottom: 2px solid white;
+    margin-left: 530px;
+  }
+  
+  .glyphicon.glyphicon-star {
+    margin-left: 5px;
+    font-size: 15px;
+  }

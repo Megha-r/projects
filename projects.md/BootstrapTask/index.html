@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+My Site
+</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="./styles/default.css">
+
+  <script type="text/javascript" src="./scripts/validation.js"></script>
+
+
+</head>
+<body>
+
+    <!--Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Welcome to webpage</a>
+        </div>
+            <ul class="nav navbar-nav" id="Navigation">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+        
+            </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+        <!-- <ul>
+               <li><a class="active" href="#home" id="webpage"><strong>Web Page</strong></a></li>
+               <li><a class="active" href="#home">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+        </ul>     -->
+        
+        
+        <!-- First Container -->       
+<div class="container-fluid bg-1 text-center" id="top">
+  <div class="img-responsive">
+      <img src="./images/bird.jpg" class="img-responsive img-circle" alt="computer" width="200" height="200" style="display: inline">
+  </div>
+
+   <h2> RESPONSIVE PAGE <br>
+  <!-- <div class="divider"> -->
+      ______<span class="glyphicon glyphicon-star"></span> ______
+  <!-- </div> -->
+  
+         <h4><p> Welcome to web page. Welcome to web page</p> </h4>
+</div>
+
+        <!-- Second Container -->       
+<div class="container text-center" id="portfolio">
+      <h3 class="margin">Portfolio<br>
+        ______<span class="glyphicon glyphicon-star"></span> ______
+      </h3>
+      <div class="row"><br>
+                  <div class="col-sm-4" id="image1">
+                     <img src="./images/bird1.jpg" class="img-responsive img-circle" style="width:100%" alt="Image">
+                  </div>
+
+                  <div class="col-sm-4" id="image2"> 
+                    <img src="./images/bird2.jpg" class="img-responsive img-circle" style="width:100%" alt="Image">
+                  </div>
+
+                  <div class="col-sm-4" id="image3"> 
+                    <img src="./images/birds3.jpg" class="img-responsive img-circle" style="width:100%" alt="Image">
+                  </div>
+            
+      </div>
+
+      <div class="row"><br>
+            <div class="col-sm-4" id="image1">
+               <img src="./images/bird1.jpg" class="img-responsive img-circle " style="width:100%" alt="Image">
+            </div>
+
+            <div class="col-sm-4" id="image2"> 
+              <img src="./images/bird2.jpg" class="img-responsive img-circle" style="width:100%" alt="Image">
+            </div>
+
+            <div class="col-sm-4" id="image3"> 
+              <img src="./images/birds3.jpg" class="img-responsive img-circle" style="width:100%" alt="Image">
+            </div>
+      <br>
+      </div>
+      <br>
+</div> 
+
+   <!-- Third Container -->  
+   <div class="container-fluid bg-1 text-center" id="about">
+            <h2>ABOUT<br>
+              ______<span class="glyphicon glyphicon-star"></span> ______
+            </h2>
+            <div class="container">
+                        <div class="row">
+                          <div class="col-sm-6 text-justify">
+                           <h4> 
+                              With Bootstrap 2, we added optional mobile friendly styles for key aspects of the framework. 
+                              With Bootstrap 3, we've rewritten the project to be mobile friendly from the start.
+                              With Bootstrap 2, we added optional mobile friendly styles for key aspects of the framework. 
+                              With Bootstrap 3, we've rewritten the project to be mobile friendly from the start. 
+                              Instead of adding on optional mobile styles, they're baked right into the core. 
+                              In fact, Bootstrap is mobile first. Mobile first styles can be found throughout the entire library instead of in separate files.
+                           </h4>
+                          </div>
+                          <div class="col-sm-6 text-justify" >
+                            <h4>
+                              With Bootstrap 2, we added optional mobile friendly styles for key aspects of the framework.
+                              With Bootstrap 3, we've rewritten the project to be mobile friendly from the start.
+                              With Bootstrap 2, we added optional mobile friendly styles for key aspects of the framework. 
+                              With Bootstrap 3, we've rewritten the project to be mobile friendly from the start.
+                              Instead of adding on optional mobile styles, they're baked right into the core. 
+                              In fact, Bootstrap is mobile first. Mobile first styles can be found throughout the entire library instead of in separate files.
+  
+                            </h4>
+                          </div>
+                         
+                        </div>       
+            </div> 
+                               
+            <button type="button" class="btn-outline-light btn-lg">
+                <a href="https://getbootstrap.com/" id="downloadBootstrap">Download Bootstrap</a>
+            </button>
+<p></p>            
+   </div>
+   
+
+    
+   <!-- Fourth Container --> 
+   <div>
+         
+      <div class="container-fluid bg-1 text-center" id="contactme">
+          <h3>CONTACT ME<br>
+            ______<span class="glyphicon glyphicon-star"></span> ______
+          </h3>
+          
+          <form name="myForm" method="post" onsubmit="validateForm()"  >
+              
+              <div class="container">
+                <div class="form-group">
+                   <input type="text" class="form-control" placeholder="User Id" id="usr" >
+                </div>
+                <div class="form-group">
+                   <input type="password" class="form-control"  placeholder="Email" id="email" >
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control"  placeholder="Phone" id="phone" >
+                 </div>
+                 <div class="form-group">
+                    <input type="text" class="form-control"  placeholder="Message" id="msg" >
+                 </div>
+                 <!-- <input type="submit" value="Submit" > -->
+                 <!-- <a href="#" class="btn btn-info btn-lg" role="button" id="SendButton" style="float: left">Send</a> -->
+                 <button type="button" onclick="return validateForm()">Submit</button>
+
+              </div> 
+              <p></p>            
+ 
+          </form>
+
+     </div>
+   </div>
+
+
+  <!-- Fourth Container --> 
+  <div class="container-fluid bg-1 text-center" id="bottomView"> 
+      <div class="row"><br>
+            <div class="col-sm-4" id="firstCol">
+              <h5>
+                    <strong> LOCATION </strong> 
+              </h5>
+              <p>
+                  4242 Six Forks Rd. Raleigh,<br> 15th Floor, NC 27609 USA 
+                  
+              </p>
+            </div>
+
+            <div class="col-sm-4" id="secondCol"> 
+              
+                <h5>
+                    <strong> AROUND THE WEB </strong><br>
+
+                    <a href="#"> <span class="glyphicon glyphicon-globe"></span> </a>
+                    <a href="#"> <span class="glyphicon glyphicon-phone"></span> </a>
+                    <a href="#"> <span class="glyphicon glyphicon-flash"></span></a>
+                    <a href="#"> <span class="glyphicon glyphicon-record"></span></a>
+                 </h5>
+
+              <div class="container-fluid" id="icons">
+                
+                 
+              </div>
+
+            </div>
+
+            <div class="col-sm-4 text-justify" id="thirdCol"> 
+                <h5>
+                    <strong> ABOUT RESPONSIVE </strong>
+               
+                </h5>    
+                   
+                <p>
+                       <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" id="getStartBootstrap" target="_blank" > Get started </a> with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN 
+                </p>
+               
+
+           </div>
+  
+      </div>
+
+</div>
+  
+<!-- Fifth Container --> 
+
+<div class="container-fluid bg-1 text-center" id="bottomView2"> 
+<p> <strong>Copyright <span class="glyphicon glyphicon-copyright-mark"></span> your website 2016 </strong></p>
+
+ 
+</div>
+
+</body>
+
+</html>
