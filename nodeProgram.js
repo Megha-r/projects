@@ -29,7 +29,7 @@ console.log(fs)
 //fs.writeFile('file/test.txt','aa', function(err){})
 
 fs = require('fs');
-fs.readFile('file/test.txt', 'utf8', function (err,data) {
+fs.readFileSync('file/test.txt', 'utf8', function (err,data) {
   if (err) {
     return console.log("There is an error");
   }
