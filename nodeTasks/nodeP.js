@@ -66,16 +66,24 @@
 
 // useCallback(callback);
 
+//***************************** Exercise 6********** */
 
+var Person = function() {};
 
-function Person(name,subject){
-  this.name = name,
-  this.subject = subject
-  this.teach = function()
-  {
-    console.log(this.name +"is now teaching"+ " "+ this.subject)
-  }
+Person.prototype.initialize = function(name, subject)
+{
+    this.name = name;
+    this.subject = subject;
 }
-var Teacher = new Person();
-var me = new Teacher();
-me.teach("Megha","JavaScript")
+
+var Teacher = function() {
+    this.teach = function(subject){
+        console.log(this.name + " is now teaching " + this.subject);
+    }
+}
+Teacher.prototype = new Person();
+var him = new Teacher();
+
+him.initialize("Megha", "JavaScript");
+him.teach();
+
