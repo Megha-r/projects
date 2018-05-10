@@ -1,0 +1,1514 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'mongoose' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData mongoose
+8 silly fetchNamedPackageData mongoose
+9 silly mapToRegistry name mongoose
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+13 verbose request uri https://registry.npmjs.org/mongoose
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 4:24:14 PM
+16 verbose request id 7c866ceb8b006596
+17 verbose etag "5ae784fe-c5482"
+18 verbose lastModified Mon, 30 Apr 2018 21:05:02 GMT
+19 http request GET https://registry.npmjs.org/mongoose
+20 http 304 https://registry.npmjs.org/mongoose
+21 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"5ae784fe-c5482"',
+21 verbose headers   age: '4365',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-sin18035-SIN',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '9',
+21 verbose headers   'x-timer': 'S1525863310.075218,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding, Accept' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"5ae784fe-c5482"',
+22 silly get     age: '4365',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-sin18035-SIN',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '9',
+22 silly get     'x-timer': 'S1525863310.075218,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding, Accept' } ]
+23 verbose etag https://registry.npmjs.org/mongoose from cache
+24 verbose get saving mongoose to /home/megna/.npm/registry.npmjs.org/mongoose/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule mongoose@5.0.17 checking installable status
+38 silly cache add args [ 'mongoose', null ]
+39 verbose cache add spec mongoose
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'mongoose',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'mongoose',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed mongoose@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for mongoose
+43 info addNameTag [ 'mongoose', 'latest' ]
+44 silly mapToRegistry name mongoose
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+48 verbose addNameTag registry:https://registry.npmjs.org/mongoose not in flight; fetching
+49 verbose get https://registry.npmjs.org/mongoose not expired, no request
+50 silly addNameTag next cb for mongoose with tag latest
+51 silly addNamed mongoose@5.0.17
+52 verbose addNamed "5.0.17" is a plain semver version for mongoose
+53 silly cache afterAdd mongoose@5.0.17
+54 verbose afterAdd /home/megna/.npm/mongoose/5.0.17/package/package.json not in flight; writing
+55 verbose afterAdd /home/megna/.npm/mongoose/5.0.17/package/package.json written
+56 silly fetchNamedPackageData async
+57 silly mapToRegistry name async
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/async
+61 silly fetchNamedPackageData bson
+62 silly mapToRegistry name bson
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/bson
+66 silly fetchNamedPackageData kareem
+67 silly mapToRegistry name kareem
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/kareem
+71 silly fetchNamedPackageData lodash.get
+72 silly mapToRegistry name lodash.get
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/lodash.get
+76 silly fetchNamedPackageData mongodb
+77 silly mapToRegistry name mongodb
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+81 silly fetchNamedPackageData mongoose-legacy-pluralize
+82 silly mapToRegistry name mongoose-legacy-pluralize
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/mongoose-legacy-pluralize
+86 silly fetchNamedPackageData mpath
+87 silly mapToRegistry name mpath
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/mpath
+91 silly fetchNamedPackageData mquery
+92 silly mapToRegistry name mquery
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/mquery
+96 silly fetchNamedPackageData ms
+97 silly mapToRegistry name ms
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/ms
+101 silly fetchNamedPackageData regexp-clone
+102 silly mapToRegistry name regexp-clone
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/regexp-clone
+106 silly fetchNamedPackageData sliced
+107 silly mapToRegistry name sliced
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/sliced
+111 verbose request uri https://registry.npmjs.org/async
+112 verbose request no auth needed
+113 info attempt registry request try #1 at 4:24:14 PM
+114 verbose etag "5acd452e-235d2"
+115 verbose lastModified Tue, 10 Apr 2018 23:13:50 GMT
+116 http request GET https://registry.npmjs.org/async
+117 verbose request uri https://registry.npmjs.org/bson
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 4:24:14 PM
+120 verbose etag "5ae397ea-2403c"
+121 verbose lastModified Fri, 27 Apr 2018 21:36:42 GMT
+122 http request GET https://registry.npmjs.org/bson
+123 verbose request uri https://registry.npmjs.org/kareem
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 4:24:14 PM
+126 verbose etag "5ae4aeab-e78a"
+127 verbose lastModified Sat, 28 Apr 2018 17:26:03 GMT
+128 http request GET https://registry.npmjs.org/kareem
+129 verbose request uri https://registry.npmjs.org/mpath
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 4:24:14 PM
+132 verbose etag "5aca95a9-3dc0"
+133 verbose lastModified Sun, 8 Apr 2018 22:20:25 GMT
+134 http request GET https://registry.npmjs.org/mpath
+135 verbose request uri https://registry.npmjs.org/lodash.get
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 4:24:14 PM
+138 verbose etag "57f6800a-55fc"
+139 verbose lastModified Thu, 6 Oct 2016 16:47:06 GMT
+140 http request GET https://registry.npmjs.org/lodash.get
+141 verbose request uri https://registry.npmjs.org/ms
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 4:24:14 PM
+144 verbose etag "5ae2cfa6-499a"
+145 verbose lastModified Fri, 27 Apr 2018 7:22:14 GMT
+146 http request GET https://registry.npmjs.org/ms
+147 verbose request uri https://registry.npmjs.org/mongoose-legacy-pluralize
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 4:24:14 PM
+150 verbose etag "5a6e5e6e-1217"
+151 verbose lastModified Sun, 28 Jan 2018 23:36:14 GMT
+152 http request GET https://registry.npmjs.org/mongoose-legacy-pluralize
+153 verbose request uri https://registry.npmjs.org/mquery
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 4:24:14 PM
+156 verbose etag "5ab148f5-18e70"
+157 verbose lastModified Tue, 20 Mar 2018 17:46:29 GMT
+158 http request GET https://registry.npmjs.org/mquery
+159 verbose request uri https://registry.npmjs.org/regexp-clone
+160 verbose request no auth needed
+161 info attempt registry request try #1 at 4:24:14 PM
+162 verbose etag "516f12a5-7d2"
+163 verbose lastModified Wed, 17 Apr 2013 21:22:45 GMT
+164 http request GET https://registry.npmjs.org/regexp-clone
+165 verbose request uri https://registry.npmjs.org/mongodb
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 4:24:14 PM
+168 verbose etag "5af1ef30-ae7ae"
+169 verbose lastModified Tue, 8 May 2018 18:40:48 GMT
+170 http request GET https://registry.npmjs.org/mongodb
+171 verbose request uri https://registry.npmjs.org/sliced
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 4:24:14 PM
+174 verbose etag "5a5e0c89-2612"
+175 verbose lastModified Tue, 16 Jan 2018 14:30:33 GMT
+176 http request GET https://registry.npmjs.org/sliced
+177 http 304 https://registry.npmjs.org/async
+178 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+178 verbose headers   via: '1.1 varnish',
+178 verbose headers   'cache-control': 'max-age=300',
+178 verbose headers   etag: '"5acd452e-235d2"',
+178 verbose headers   age: '12275',
+178 verbose headers   connection: 'keep-alive',
+178 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+178 verbose headers   'x-cache': 'HIT',
+178 verbose headers   'x-cache-hits': '607',
+178 verbose headers   'x-timer': 'S1525863310.496767,VS0,VE0',
+178 verbose headers   vary: 'Accept-Encoding, Accept' }
+179 silly get cb [ 304,
+179 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+179 silly get     via: '1.1 varnish',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     etag: '"5acd452e-235d2"',
+179 silly get     age: '12275',
+179 silly get     connection: 'keep-alive',
+179 silly get     'x-served-by': 'cache-sin18026-SIN',
+179 silly get     'x-cache': 'HIT',
+179 silly get     'x-cache-hits': '607',
+179 silly get     'x-timer': 'S1525863310.496767,VS0,VE0',
+179 silly get     vary: 'Accept-Encoding, Accept' } ]
+180 verbose etag https://registry.npmjs.org/async from cache
+181 verbose get saving async to /home/megna/.npm/registry.npmjs.org/async/.cache.json
+182 silly resolveWithNewModule async@2.1.4 checking installable status
+183 silly cache add args [ 'async@2.1.4', null ]
+184 verbose cache add spec async@2.1.4
+185 silly cache add parsed spec Result {
+185 silly cache add   raw: 'async@2.1.4',
+185 silly cache add   scope: null,
+185 silly cache add   name: 'async',
+185 silly cache add   rawSpec: '2.1.4',
+185 silly cache add   spec: '2.1.4',
+185 silly cache add   type: 'version' }
+186 silly addNamed async@2.1.4
+187 verbose addNamed "2.1.4" is a plain semver version for async
+188 silly mapToRegistry name async
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry uri https://registry.npmjs.org/async
+192 verbose addNameVersion registry:https://registry.npmjs.org/async not in flight; fetching
+193 http 304 https://registry.npmjs.org/bson
+194 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+194 verbose headers   via: '1.1 varnish',
+194 verbose headers   'cache-control': 'max-age=300',
+194 verbose headers   etag: '"5ae397ea-2403c"',
+194 verbose headers   age: '4809',
+194 verbose headers   connection: 'keep-alive',
+194 verbose headers   'x-served-by': 'cache-sin18027-SIN',
+194 verbose headers   'x-cache': 'HIT',
+194 verbose headers   'x-cache-hits': '21',
+194 verbose headers   'x-timer': 'S1525863311.501934,VS0,VE0',
+194 verbose headers   vary: 'Accept-Encoding, Accept' }
+195 silly get cb [ 304,
+195 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+195 silly get     via: '1.1 varnish',
+195 silly get     'cache-control': 'max-age=300',
+195 silly get     etag: '"5ae397ea-2403c"',
+195 silly get     age: '4809',
+195 silly get     connection: 'keep-alive',
+195 silly get     'x-served-by': 'cache-sin18027-SIN',
+195 silly get     'x-cache': 'HIT',
+195 silly get     'x-cache-hits': '21',
+195 silly get     'x-timer': 'S1525863311.501934,VS0,VE0',
+195 silly get     vary: 'Accept-Encoding, Accept' } ]
+196 verbose etag https://registry.npmjs.org/bson from cache
+197 verbose get saving bson to /home/megna/.npm/registry.npmjs.org/bson/.cache.json
+198 verbose get https://registry.npmjs.org/async not expired, no request
+199 silly resolveWithNewModule bson@1.0.6 checking installable status
+200 silly cache add args [ 'bson@~1.0.4', null ]
+201 verbose cache add spec bson@~1.0.4
+202 silly cache add parsed spec Result {
+202 silly cache add   raw: 'bson@~1.0.4',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'bson',
+202 silly cache add   rawSpec: '~1.0.4',
+202 silly cache add   spec: '>=1.0.4 <1.1.0',
+202 silly cache add   type: 'range' }
+203 silly addNamed bson@>=1.0.4 <1.1.0
+204 verbose addNamed ">=1.0.4 <1.1.0" is a valid semver range for bson
+205 silly addNameRange { name: 'bson', range: '>=1.0.4 <1.1.0', hasData: false }
+206 silly mapToRegistry name bson
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry uri https://registry.npmjs.org/bson
+210 verbose addNameRange registry:https://registry.npmjs.org/bson not in flight; fetching
+211 verbose get https://registry.npmjs.org/bson not expired, no request
+212 silly addNameRange number 2 { name: 'bson', range: '>=1.0.4 <1.1.0', hasData: true }
+213 silly addNameRange versions [ 'bson',
+213 silly addNameRange   [ '0.0.1',
+213 silly addNameRange     '0.0.2',
+213 silly addNameRange     '0.0.3',
+213 silly addNameRange     '0.0.4',
+213 silly addNameRange     '0.0.5',
+213 silly addNameRange     '0.0.6',
+213 silly addNameRange     '0.0.7',
+213 silly addNameRange     '0.0.8',
+213 silly addNameRange     '0.0.9',
+213 silly addNameRange     '0.1.0',
+213 silly addNameRange     '0.1.1',
+213 silly addNameRange     '0.1.3',
+213 silly addNameRange     '0.1.4',
+213 silly addNameRange     '0.1.5',
+213 silly addNameRange     '0.1.6',
+213 silly addNameRange     '0.1.7',
+213 silly addNameRange     '0.1.8',
+213 silly addNameRange     '0.1.9',
+213 silly addNameRange     '0.2.0',
+213 silly addNameRange     '0.2.1',
+213 silly addNameRange     '0.2.2',
+213 silly addNameRange     '0.2.3',
+213 silly addNameRange     '0.2.4',
+213 silly addNameRange     '0.2.5',
+213 silly addNameRange     '0.2.6',
+213 silly addNameRange     '0.2.7',
+213 silly addNameRange     '0.2.8',
+213 silly addNameRange     '0.2.9',
+213 silly addNameRange     '0.2.10',
+213 silly addNameRange     '0.2.11',
+213 silly addNameRange     '0.2.12',
+213 silly addNameRange     '0.2.13',
+213 silly addNameRange     '0.2.14',
+213 silly addNameRange     '0.2.15',
+213 silly addNameRange     '0.2.16',
+213 silly addNameRange     '0.2.17',
+213 silly addNameRange     '0.2.18',
+213 silly addNameRange     '0.2.19',
+213 silly addNameRange     '0.2.20',
+213 silly addNameRange     '0.2.21',
+213 silly addNameRange     '0.3.0',
+213 silly addNameRange     '0.3.1',
+213 silly addNameRange     '0.3.2',
+213 silly addNameRange     '0.4.0',
+213 silly addNameRange     '0.4.1',
+213 silly addNameRange     '0.4.2',
+213 silly addNameRange     '0.4.3',
+213 silly addNameRange     '0.4.4',
+213 silly addNameRange     '0.4.5',
+213 silly addNameRange     '0.4.6',
+213 silly addNameRange     '0.4.7',
+213 silly addNameRange     '0.4.8',
+213 silly addNameRange     '0.2.22',
+213 silly addNameRange     '0.4.10',
+213 silly addNameRange     '0.4.12',
+213 silly addNameRange     '0.4.13',
+213 silly addNameRange     '0.4.14',
+213 silly addNameRange     '0.4.15',
+213 silly addNameRange     '0.4.16',
+213 silly addNameRange     '0.4.17',
+213 silly addNameRange     '0.4.18',
+213 silly addNameRange     '0.4.19',
+213 silly addNameRange     '0.4.20',
+213 silly addNameRange     '0.4.21',
+213 silly addNameRange     '0.4.22',
+213 silly addNameRange     '0.4.23',
+213 silly addNameRange     '0.5.0',
+213 silly addNameRange     '0.5.1',
+213 silly addNameRange     '0.5.2',
+213 silly addNameRange     '0.5.3',
+213 silly addNameRange     '0.5.4',
+213 silly addNameRange     '0.5.5',
+213 silly addNameRange     '0.5.6',
+213 silly addNameRange     '0.5.7',
+213 silly addNameRange     '1.0.0',
+213 silly addNameRange     '1.0.1',
+213 silly addNameRange     '1.0.2',
+213 silly addNameRange     '1.0.3',
+213 silly addNameRange     '1.0.4',
+213 silly addNameRange     '2.0.0',
+213 silly addNameRange     '1.0.5',
+213 silly addNameRange     '2.0.1',
+213 silly addNameRange     '2.0.2',
+213 silly addNameRange     '1.0.6',
+213 silly addNameRange     '2.0.3',
+213 silly addNameRange     '2.0.4',
+213 silly addNameRange     '2.0.5',
+213 silly addNameRange     '2.0.6' ] ]
+214 silly addNamed bson@1.0.6
+215 verbose addNamed "1.0.6" is a plain semver version for bson
+216 http 304 https://registry.npmjs.org/mpath
+217 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+217 verbose headers   via: '1.1 varnish',
+217 verbose headers   'cache-control': 'max-age=300',
+217 verbose headers   etag: '"5aca95a9-3dc0"',
+217 verbose headers   age: '7859',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'x-served-by': 'cache-sin18034-SIN',
+217 verbose headers   'x-cache': 'HIT',
+217 verbose headers   'x-cache-hits': '13',
+217 verbose headers   'x-timer': 'S1525863311.515418,VS0,VE0',
+217 verbose headers   vary: 'Accept-Encoding, Accept' }
+218 silly get cb [ 304,
+218 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+218 silly get     via: '1.1 varnish',
+218 silly get     'cache-control': 'max-age=300',
+218 silly get     etag: '"5aca95a9-3dc0"',
+218 silly get     age: '7859',
+218 silly get     connection: 'keep-alive',
+218 silly get     'x-served-by': 'cache-sin18034-SIN',
+218 silly get     'x-cache': 'HIT',
+218 silly get     'x-cache-hits': '13',
+218 silly get     'x-timer': 'S1525863311.515418,VS0,VE0',
+218 silly get     vary: 'Accept-Encoding, Accept' } ]
+219 verbose etag https://registry.npmjs.org/mpath from cache
+220 verbose get saving mpath to /home/megna/.npm/registry.npmjs.org/mpath/.cache.json
+221 http 304 https://registry.npmjs.org/kareem
+222 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+222 verbose headers   via: '1.1 varnish',
+222 verbose headers   'cache-control': 'max-age=300',
+222 verbose headers   etag: '"5ae4aeab-e78a"',
+222 verbose headers   age: '5457',
+222 verbose headers   connection: 'keep-alive',
+222 verbose headers   'x-served-by': 'cache-sin18024-SIN',
+222 verbose headers   'x-cache': 'HIT',
+222 verbose headers   'x-cache-hits': '8',
+222 verbose headers   'x-timer': 'S1525863311.515787,VS0,VE0',
+222 verbose headers   vary: 'Accept-Encoding, Accept' }
+223 silly get cb [ 304,
+223 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+223 silly get     via: '1.1 varnish',
+223 silly get     'cache-control': 'max-age=300',
+223 silly get     etag: '"5ae4aeab-e78a"',
+223 silly get     age: '5457',
+223 silly get     connection: 'keep-alive',
+223 silly get     'x-served-by': 'cache-sin18024-SIN',
+223 silly get     'x-cache': 'HIT',
+223 silly get     'x-cache-hits': '8',
+223 silly get     'x-timer': 'S1525863311.515787,VS0,VE0',
+223 silly get     vary: 'Accept-Encoding, Accept' } ]
+224 verbose etag https://registry.npmjs.org/kareem from cache
+225 verbose get saving kareem to /home/megna/.npm/registry.npmjs.org/kareem/.cache.json
+226 http 304 https://registry.npmjs.org/mquery
+227 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+227 verbose headers   via: '1.1 varnish',
+227 verbose headers   'cache-control': 'max-age=300',
+227 verbose headers   etag: '"5ab148f5-18e70"',
+227 verbose headers   age: '6561',
+227 verbose headers   connection: 'keep-alive',
+227 verbose headers   'x-served-by': 'cache-sin18030-SIN',
+227 verbose headers   'x-cache': 'HIT',
+227 verbose headers   'x-cache-hits': '11',
+227 verbose headers   'x-timer': 'S1525863311.515954,VS0,VE0',
+227 verbose headers   vary: 'Accept-Encoding, Accept' }
+228 silly get cb [ 304,
+228 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+228 silly get     via: '1.1 varnish',
+228 silly get     'cache-control': 'max-age=300',
+228 silly get     etag: '"5ab148f5-18e70"',
+228 silly get     age: '6561',
+228 silly get     connection: 'keep-alive',
+228 silly get     'x-served-by': 'cache-sin18030-SIN',
+228 silly get     'x-cache': 'HIT',
+228 silly get     'x-cache-hits': '11',
+228 silly get     'x-timer': 'S1525863311.515954,VS0,VE0',
+228 silly get     vary: 'Accept-Encoding, Accept' } ]
+229 verbose etag https://registry.npmjs.org/mquery from cache
+230 verbose get saving mquery to /home/megna/.npm/registry.npmjs.org/mquery/.cache.json
+231 http 304 https://registry.npmjs.org/ms
+232 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+232 verbose headers   via: '1.1 varnish',
+232 verbose headers   'cache-control': 'max-age=300',
+232 verbose headers   etag: '"5ae2cfa6-499a"',
+232 verbose headers   age: '4851',
+232 verbose headers   connection: 'keep-alive',
+232 verbose headers   'x-served-by': 'cache-sin18024-SIN',
+232 verbose headers   'x-cache': 'HIT',
+232 verbose headers   'x-cache-hits': '288',
+232 verbose headers   'x-timer': 'S1525863311.516880,VS0,VE0',
+232 verbose headers   vary: 'Accept-Encoding, Accept' }
+233 silly get cb [ 304,
+233 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+233 silly get     via: '1.1 varnish',
+233 silly get     'cache-control': 'max-age=300',
+233 silly get     etag: '"5ae2cfa6-499a"',
+233 silly get     age: '4851',
+233 silly get     connection: 'keep-alive',
+233 silly get     'x-served-by': 'cache-sin18024-SIN',
+233 silly get     'x-cache': 'HIT',
+233 silly get     'x-cache-hits': '288',
+233 silly get     'x-timer': 'S1525863311.516880,VS0,VE0',
+233 silly get     vary: 'Accept-Encoding, Accept' } ]
+234 verbose etag https://registry.npmjs.org/ms from cache
+235 verbose get saving ms to /home/megna/.npm/registry.npmjs.org/ms/.cache.json
+236 http 304 https://registry.npmjs.org/mongoose-legacy-pluralize
+237 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+237 verbose headers   via: '1.1 varnish',
+237 verbose headers   'cache-control': 'max-age=300',
+237 verbose headers   etag: '"5a6e5e6e-1217"',
+237 verbose headers   age: '10609',
+237 verbose headers   connection: 'keep-alive',
+237 verbose headers   'x-served-by': 'cache-sin18027-SIN',
+237 verbose headers   'x-cache': 'HIT',
+237 verbose headers   'x-cache-hits': '4',
+237 verbose headers   'x-timer': 'S1525863311.518835,VS0,VE0',
+237 verbose headers   vary: 'Accept-Encoding, Accept' }
+238 silly get cb [ 304,
+238 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+238 silly get     via: '1.1 varnish',
+238 silly get     'cache-control': 'max-age=300',
+238 silly get     etag: '"5a6e5e6e-1217"',
+238 silly get     age: '10609',
+238 silly get     connection: 'keep-alive',
+238 silly get     'x-served-by': 'cache-sin18027-SIN',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '4',
+238 silly get     'x-timer': 'S1525863311.518835,VS0,VE0',
+238 silly get     vary: 'Accept-Encoding, Accept' } ]
+239 verbose etag https://registry.npmjs.org/mongoose-legacy-pluralize from cache
+240 verbose get saving mongoose-legacy-pluralize to /home/megna/.npm/registry.npmjs.org/mongoose-legacy-pluralize/.cache.json
+241 http 304 https://registry.npmjs.org/mongodb
+242 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+242 verbose headers   via: '1.1 varnish',
+242 verbose headers   'cache-control': 'max-age=300',
+242 verbose headers   etag: '"5af1ef30-ae7ae"',
+242 verbose headers   age: '14039',
+242 verbose headers   connection: 'keep-alive',
+242 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+242 verbose headers   'x-cache': 'HIT',
+242 verbose headers   'x-cache-hits': '52',
+242 verbose headers   'x-timer': 'S1525863311.519082,VS0,VE0',
+242 verbose headers   vary: 'Accept-Encoding, Accept' }
+243 silly get cb [ 304,
+243 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+243 silly get     via: '1.1 varnish',
+243 silly get     'cache-control': 'max-age=300',
+243 silly get     etag: '"5af1ef30-ae7ae"',
+243 silly get     age: '14039',
+243 silly get     connection: 'keep-alive',
+243 silly get     'x-served-by': 'cache-sin18026-SIN',
+243 silly get     'x-cache': 'HIT',
+243 silly get     'x-cache-hits': '52',
+243 silly get     'x-timer': 'S1525863311.519082,VS0,VE0',
+243 silly get     vary: 'Accept-Encoding, Accept' } ]
+244 verbose etag https://registry.npmjs.org/mongodb from cache
+245 verbose get saving mongodb to /home/megna/.npm/registry.npmjs.org/mongodb/.cache.json
+246 http 304 https://registry.npmjs.org/sliced
+247 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+247 verbose headers   via: '1.1 varnish',
+247 verbose headers   'cache-control': 'max-age=300',
+247 verbose headers   etag: '"5a5e0c89-2612"',
+247 verbose headers   age: '6597',
+247 verbose headers   connection: 'keep-alive',
+247 verbose headers   'x-served-by': 'cache-sin18032-SIN',
+247 verbose headers   'x-cache': 'HIT',
+247 verbose headers   'x-cache-hits': '10',
+247 verbose headers   'x-timer': 'S1525863311.519754,VS0,VE0',
+247 verbose headers   vary: 'Accept-Encoding, Accept' }
+248 silly get cb [ 304,
+248 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+248 silly get     via: '1.1 varnish',
+248 silly get     'cache-control': 'max-age=300',
+248 silly get     etag: '"5a5e0c89-2612"',
+248 silly get     age: '6597',
+248 silly get     connection: 'keep-alive',
+248 silly get     'x-served-by': 'cache-sin18032-SIN',
+248 silly get     'x-cache': 'HIT',
+248 silly get     'x-cache-hits': '10',
+248 silly get     'x-timer': 'S1525863311.519754,VS0,VE0',
+248 silly get     vary: 'Accept-Encoding, Accept' } ]
+249 verbose etag https://registry.npmjs.org/sliced from cache
+250 verbose get saving sliced to /home/megna/.npm/registry.npmjs.org/sliced/.cache.json
+251 http 304 https://registry.npmjs.org/lodash.get
+252 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+252 verbose headers   via: '1.1 varnish',
+252 verbose headers   'cache-control': 'max-age=300',
+252 verbose headers   etag: '"57f6800a-55fc"',
+252 verbose headers   age: '3323',
+252 verbose headers   connection: 'keep-alive',
+252 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+252 verbose headers   'x-cache': 'HIT',
+252 verbose headers   'x-cache-hits': '9',
+252 verbose headers   'x-timer': 'S1525863311.526213,VS0,VE0',
+252 verbose headers   vary: 'Accept-Encoding, Accept' }
+253 silly get cb [ 304,
+253 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+253 silly get     via: '1.1 varnish',
+253 silly get     'cache-control': 'max-age=300',
+253 silly get     etag: '"57f6800a-55fc"',
+253 silly get     age: '3323',
+253 silly get     connection: 'keep-alive',
+253 silly get     'x-served-by': 'cache-sin18026-SIN',
+253 silly get     'x-cache': 'HIT',
+253 silly get     'x-cache-hits': '9',
+253 silly get     'x-timer': 'S1525863311.526213,VS0,VE0',
+253 silly get     vary: 'Accept-Encoding, Accept' } ]
+254 verbose etag https://registry.npmjs.org/lodash.get from cache
+255 verbose get saving lodash.get to /home/megna/.npm/registry.npmjs.org/lodash.get/.cache.json
+256 http 304 https://registry.npmjs.org/regexp-clone
+257 verbose headers { date: 'Wed, 09 May 2018 10:55:10 GMT',
+257 verbose headers   via: '1.1 varnish',
+257 verbose headers   'cache-control': 'max-age=300',
+257 verbose headers   etag: '"516f12a5-7d2"',
+257 verbose headers   age: '2604',
+257 verbose headers   connection: 'keep-alive',
+257 verbose headers   'x-served-by': 'cache-sin18029-SIN',
+257 verbose headers   'x-cache': 'HIT',
+257 verbose headers   'x-cache-hits': '8',
+257 verbose headers   'x-timer': 'S1525863311.529070,VS0,VE0',
+257 verbose headers   vary: 'Accept-Encoding, Accept' }
+258 silly get cb [ 304,
+258 silly get   { date: 'Wed, 09 May 2018 10:55:10 GMT',
+258 silly get     via: '1.1 varnish',
+258 silly get     'cache-control': 'max-age=300',
+258 silly get     etag: '"516f12a5-7d2"',
+258 silly get     age: '2604',
+258 silly get     connection: 'keep-alive',
+258 silly get     'x-served-by': 'cache-sin18029-SIN',
+258 silly get     'x-cache': 'HIT',
+258 silly get     'x-cache-hits': '8',
+258 silly get     'x-timer': 'S1525863311.529070,VS0,VE0',
+258 silly get     vary: 'Accept-Encoding, Accept' } ]
+259 verbose etag https://registry.npmjs.org/regexp-clone from cache
+260 verbose get saving regexp-clone to /home/megna/.npm/registry.npmjs.org/regexp-clone/.cache.json
+261 silly cache afterAdd async@2.1.4
+262 verbose afterAdd /home/megna/.npm/async/2.1.4/package/package.json not in flight; writing
+263 silly cache afterAdd bson@1.0.6
+264 verbose afterAdd /home/megna/.npm/bson/1.0.6/package/package.json not in flight; writing
+265 silly resolveWithNewModule mpath@0.4.1 checking installable status
+266 silly cache add args [ 'mpath@0.4.1', null ]
+267 verbose cache add spec mpath@0.4.1
+268 silly cache add parsed spec Result {
+268 silly cache add   raw: 'mpath@0.4.1',
+268 silly cache add   scope: null,
+268 silly cache add   name: 'mpath',
+268 silly cache add   rawSpec: '0.4.1',
+268 silly cache add   spec: '0.4.1',
+268 silly cache add   type: 'version' }
+269 silly addNamed mpath@0.4.1
+270 verbose addNamed "0.4.1" is a plain semver version for mpath
+271 silly mapToRegistry name mpath
+272 silly mapToRegistry using default registry
+273 silly mapToRegistry registry https://registry.npmjs.org/
+274 silly mapToRegistry uri https://registry.npmjs.org/mpath
+275 verbose addNameVersion registry:https://registry.npmjs.org/mpath not in flight; fetching
+276 silly resolveWithNewModule kareem@2.0.7 checking installable status
+277 silly cache add args [ 'kareem@2.0.7', null ]
+278 verbose cache add spec kareem@2.0.7
+279 silly cache add parsed spec Result {
+279 silly cache add   raw: 'kareem@2.0.7',
+279 silly cache add   scope: null,
+279 silly cache add   name: 'kareem',
+279 silly cache add   rawSpec: '2.0.7',
+279 silly cache add   spec: '2.0.7',
+279 silly cache add   type: 'version' }
+280 silly addNamed kareem@2.0.7
+281 verbose addNamed "2.0.7" is a plain semver version for kareem
+282 silly mapToRegistry name kareem
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry https://registry.npmjs.org/
+285 silly mapToRegistry uri https://registry.npmjs.org/kareem
+286 verbose addNameVersion registry:https://registry.npmjs.org/kareem not in flight; fetching
+287 silly resolveWithNewModule mongoose-legacy-pluralize@1.0.2 checking installable status
+288 silly cache add args [ 'mongoose-legacy-pluralize@1.0.2', null ]
+289 verbose cache add spec mongoose-legacy-pluralize@1.0.2
+290 silly cache add parsed spec Result {
+290 silly cache add   raw: 'mongoose-legacy-pluralize@1.0.2',
+290 silly cache add   scope: null,
+290 silly cache add   name: 'mongoose-legacy-pluralize',
+290 silly cache add   rawSpec: '1.0.2',
+290 silly cache add   spec: '1.0.2',
+290 silly cache add   type: 'version' }
+291 silly addNamed mongoose-legacy-pluralize@1.0.2
+292 verbose addNamed "1.0.2" is a plain semver version for mongoose-legacy-pluralize
+293 silly mapToRegistry name mongoose-legacy-pluralize
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry uri https://registry.npmjs.org/mongoose-legacy-pluralize
+297 verbose addNameVersion registry:https://registry.npmjs.org/mongoose-legacy-pluralize not in flight; fetching
+298 silly resolveWithNewModule mquery@3.0.0 checking installable status
+299 silly cache add args [ 'mquery@3.0.0', null ]
+300 verbose cache add spec mquery@3.0.0
+301 silly cache add parsed spec Result {
+301 silly cache add   raw: 'mquery@3.0.0',
+301 silly cache add   scope: null,
+301 silly cache add   name: 'mquery',
+301 silly cache add   rawSpec: '3.0.0',
+301 silly cache add   spec: '3.0.0',
+301 silly cache add   type: 'version' }
+302 silly addNamed mquery@3.0.0
+303 verbose addNamed "3.0.0" is a plain semver version for mquery
+304 silly mapToRegistry name mquery
+305 silly mapToRegistry using default registry
+306 silly mapToRegistry registry https://registry.npmjs.org/
+307 silly mapToRegistry uri https://registry.npmjs.org/mquery
+308 verbose addNameVersion registry:https://registry.npmjs.org/mquery not in flight; fetching
+309 silly resolveWithNewModule ms@2.0.0 checking installable status
+310 silly cache add args [ 'ms@2.0.0', null ]
+311 verbose cache add spec ms@2.0.0
+312 silly cache add parsed spec Result {
+312 silly cache add   raw: 'ms@2.0.0',
+312 silly cache add   scope: null,
+312 silly cache add   name: 'ms',
+312 silly cache add   rawSpec: '2.0.0',
+312 silly cache add   spec: '2.0.0',
+312 silly cache add   type: 'version' }
+313 silly addNamed ms@2.0.0
+314 verbose addNamed "2.0.0" is a plain semver version for ms
+315 silly mapToRegistry name ms
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry uri https://registry.npmjs.org/ms
+319 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+320 silly resolveWithNewModule sliced@1.0.1 checking installable status
+321 silly cache add args [ 'sliced@1.0.1', null ]
+322 verbose cache add spec sliced@1.0.1
+323 silly cache add parsed spec Result {
+323 silly cache add   raw: 'sliced@1.0.1',
+323 silly cache add   scope: null,
+323 silly cache add   name: 'sliced',
+323 silly cache add   rawSpec: '1.0.1',
+323 silly cache add   spec: '1.0.1',
+323 silly cache add   type: 'version' }
+324 silly addNamed sliced@1.0.1
+325 verbose addNamed "1.0.1" is a plain semver version for sliced
+326 silly mapToRegistry name sliced
+327 silly mapToRegistry using default registry
+328 silly mapToRegistry registry https://registry.npmjs.org/
+329 silly mapToRegistry uri https://registry.npmjs.org/sliced
+330 verbose addNameVersion registry:https://registry.npmjs.org/sliced not in flight; fetching
+331 silly resolveWithNewModule mongodb@3.0.7 checking installable status
+332 silly cache add args [ 'mongodb@3.0.7', null ]
+333 verbose cache add spec mongodb@3.0.7
+334 silly cache add parsed spec Result {
+334 silly cache add   raw: 'mongodb@3.0.7',
+334 silly cache add   scope: null,
+334 silly cache add   name: 'mongodb',
+334 silly cache add   rawSpec: '3.0.7',
+334 silly cache add   spec: '3.0.7',
+334 silly cache add   type: 'version' }
+335 silly addNamed mongodb@3.0.7
+336 verbose addNamed "3.0.7" is a plain semver version for mongodb
+337 silly mapToRegistry name mongodb
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry https://registry.npmjs.org/
+340 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+341 verbose addNameVersion registry:https://registry.npmjs.org/mongodb not in flight; fetching
+342 silly resolveWithNewModule lodash.get@4.4.2 checking installable status
+343 silly cache add args [ 'lodash.get@4.4.2', null ]
+344 verbose cache add spec lodash.get@4.4.2
+345 silly cache add parsed spec Result {
+345 silly cache add   raw: 'lodash.get@4.4.2',
+345 silly cache add   scope: null,
+345 silly cache add   name: 'lodash.get',
+345 silly cache add   rawSpec: '4.4.2',
+345 silly cache add   spec: '4.4.2',
+345 silly cache add   type: 'version' }
+346 silly addNamed lodash.get@4.4.2
+347 verbose addNamed "4.4.2" is a plain semver version for lodash.get
+348 silly mapToRegistry name lodash.get
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry uri https://registry.npmjs.org/lodash.get
+352 verbose addNameVersion registry:https://registry.npmjs.org/lodash.get not in flight; fetching
+353 verbose afterAdd /home/megna/.npm/async/2.1.4/package/package.json written
+354 silly resolveWithNewModule regexp-clone@0.0.1 checking installable status
+355 silly cache add args [ 'regexp-clone@0.0.1', null ]
+356 verbose cache add spec regexp-clone@0.0.1
+357 silly cache add parsed spec Result {
+357 silly cache add   raw: 'regexp-clone@0.0.1',
+357 silly cache add   scope: null,
+357 silly cache add   name: 'regexp-clone',
+357 silly cache add   rawSpec: '0.0.1',
+357 silly cache add   spec: '0.0.1',
+357 silly cache add   type: 'version' }
+358 silly addNamed regexp-clone@0.0.1
+359 verbose addNamed "0.0.1" is a plain semver version for regexp-clone
+360 silly mapToRegistry name regexp-clone
+361 silly mapToRegistry using default registry
+362 silly mapToRegistry registry https://registry.npmjs.org/
+363 silly mapToRegistry uri https://registry.npmjs.org/regexp-clone
+364 verbose addNameVersion registry:https://registry.npmjs.org/regexp-clone not in flight; fetching
+365 verbose afterAdd /home/megna/.npm/bson/1.0.6/package/package.json written
+366 verbose get https://registry.npmjs.org/mpath not expired, no request
+367 verbose get https://registry.npmjs.org/kareem not expired, no request
+368 verbose get https://registry.npmjs.org/ms not expired, no request
+369 verbose get https://registry.npmjs.org/sliced not expired, no request
+370 verbose get https://registry.npmjs.org/mquery not expired, no request
+371 verbose get https://registry.npmjs.org/mongoose-legacy-pluralize not expired, no request
+372 verbose get https://registry.npmjs.org/lodash.get not expired, no request
+373 verbose get https://registry.npmjs.org/regexp-clone not expired, no request
+374 verbose get https://registry.npmjs.org/mongodb not expired, no request
+375 silly cache afterAdd ms@2.0.0
+376 verbose afterAdd /home/megna/.npm/ms/2.0.0/package/package.json not in flight; writing
+377 silly cache afterAdd mpath@0.4.1
+378 verbose afterAdd /home/megna/.npm/mpath/0.4.1/package/package.json not in flight; writing
+379 silly cache afterAdd sliced@1.0.1
+380 verbose afterAdd /home/megna/.npm/sliced/1.0.1/package/package.json not in flight; writing
+381 silly cache afterAdd kareem@2.0.7
+382 verbose afterAdd /home/megna/.npm/kareem/2.0.7/package/package.json not in flight; writing
+383 silly cache afterAdd mongoose-legacy-pluralize@1.0.2
+384 verbose afterAdd /home/megna/.npm/mongoose-legacy-pluralize/1.0.2/package/package.json not in flight; writing
+385 silly cache afterAdd lodash.get@4.4.2
+386 verbose afterAdd /home/megna/.npm/lodash.get/4.4.2/package/package.json not in flight; writing
+387 verbose afterAdd /home/megna/.npm/ms/2.0.0/package/package.json written
+388 verbose afterAdd /home/megna/.npm/mpath/0.4.1/package/package.json written
+389 verbose afterAdd /home/megna/.npm/sliced/1.0.1/package/package.json written
+390 verbose afterAdd /home/megna/.npm/kareem/2.0.7/package/package.json written
+391 verbose afterAdd /home/megna/.npm/lodash.get/4.4.2/package/package.json written
+392 verbose afterAdd /home/megna/.npm/mongoose-legacy-pluralize/1.0.2/package/package.json written
+393 silly cache afterAdd mongodb@3.0.7
+394 verbose afterAdd /home/megna/.npm/mongodb/3.0.7/package/package.json not in flight; writing
+395 silly cache afterAdd mquery@3.0.0
+396 verbose afterAdd /home/megna/.npm/mquery/3.0.0/package/package.json not in flight; writing
+397 silly cache afterAdd regexp-clone@0.0.1
+398 verbose afterAdd /home/megna/.npm/regexp-clone/0.0.1/package/package.json not in flight; writing
+399 verbose afterAdd /home/megna/.npm/mongodb/3.0.7/package/package.json written
+400 verbose afterAdd /home/megna/.npm/regexp-clone/0.0.1/package/package.json written
+401 verbose afterAdd /home/megna/.npm/mquery/3.0.0/package/package.json written
+402 silly fetchNamedPackageData lodash
+403 silly mapToRegistry name lodash
+404 silly mapToRegistry using default registry
+405 silly mapToRegistry registry https://registry.npmjs.org/
+406 silly mapToRegistry uri https://registry.npmjs.org/lodash
+407 verbose request uri https://registry.npmjs.org/lodash
+408 verbose request no auth needed
+409 info attempt registry request try #1 at 4:24:15 PM
+410 verbose etag "5ae0246c-2c9c5"
+411 verbose lastModified Wed, 25 Apr 2018 6:47:08 GMT
+412 http request GET https://registry.npmjs.org/lodash
+413 http 304 https://registry.npmjs.org/lodash
+414 verbose headers { date: 'Wed, 09 May 2018 10:55:11 GMT',
+414 verbose headers   via: '1.1 varnish',
+414 verbose headers   'cache-control': 'max-age=300',
+414 verbose headers   etag: '"5ae0246c-2c9c5"',
+414 verbose headers   age: '4602',
+414 verbose headers   connection: 'keep-alive',
+414 verbose headers   'x-served-by': 'cache-sin18020-SIN',
+414 verbose headers   'x-cache': 'HIT',
+414 verbose headers   'x-cache-hits': '301',
+414 verbose headers   'x-timer': 'S1525863311.015473,VS0,VE0',
+414 verbose headers   vary: 'Accept-Encoding, Accept' }
+415 silly get cb [ 304,
+415 silly get   { date: 'Wed, 09 May 2018 10:55:11 GMT',
+415 silly get     via: '1.1 varnish',
+415 silly get     'cache-control': 'max-age=300',
+415 silly get     etag: '"5ae0246c-2c9c5"',
+415 silly get     age: '4602',
+415 silly get     connection: 'keep-alive',
+415 silly get     'x-served-by': 'cache-sin18020-SIN',
+415 silly get     'x-cache': 'HIT',
+415 silly get     'x-cache-hits': '301',
+415 silly get     'x-timer': 'S1525863311.015473,VS0,VE0',
+415 silly get     vary: 'Accept-Encoding, Accept' } ]
+416 verbose etag https://registry.npmjs.org/lodash from cache
+417 verbose get saving lodash to /home/megna/.npm/registry.npmjs.org/lodash/.cache.json
+418 silly resolveWithNewModule lodash@4.17.10 checking installable status
+419 silly cache add args [ 'lodash@^4.14.0', null ]
+420 verbose cache add spec lodash@^4.14.0
+421 silly cache add parsed spec Result {
+421 silly cache add   raw: 'lodash@^4.14.0',
+421 silly cache add   scope: null,
+421 silly cache add   name: 'lodash',
+421 silly cache add   rawSpec: '^4.14.0',
+421 silly cache add   spec: '>=4.14.0 <5.0.0',
+421 silly cache add   type: 'range' }
+422 silly addNamed lodash@>=4.14.0 <5.0.0
+423 verbose addNamed ">=4.14.0 <5.0.0" is a valid semver range for lodash
+424 silly addNameRange { name: 'lodash', range: '>=4.14.0 <5.0.0', hasData: false }
+425 silly mapToRegistry name lodash
+426 silly mapToRegistry using default registry
+427 silly mapToRegistry registry https://registry.npmjs.org/
+428 silly mapToRegistry uri https://registry.npmjs.org/lodash
+429 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+430 verbose get https://registry.npmjs.org/lodash not expired, no request
+431 silly addNameRange number 2 { name: 'lodash', range: '>=4.14.0 <5.0.0', hasData: true }
+432 silly addNameRange versions [ 'lodash',
+432 silly addNameRange   [ '0.1.0',
+432 silly addNameRange     '0.2.0',
+432 silly addNameRange     '0.2.1',
+432 silly addNameRange     '0.2.2',
+432 silly addNameRange     '0.3.0',
+432 silly addNameRange     '0.3.1',
+432 silly addNameRange     '0.3.2',
+432 silly addNameRange     '0.4.0',
+432 silly addNameRange     '0.4.1',
+432 silly addNameRange     '0.4.2',
+432 silly addNameRange     '0.5.0-rc.1',
+432 silly addNameRange     '0.5.0',
+432 silly addNameRange     '0.5.1',
+432 silly addNameRange     '0.5.2',
+432 silly addNameRange     '0.6.0',
+432 silly addNameRange     '0.6.1',
+432 silly addNameRange     '0.7.0',
+432 silly addNameRange     '0.8.0',
+432 silly addNameRange     '0.8.1',
+432 silly addNameRange     '0.8.2',
+432 silly addNameRange     '0.9.0',
+432 silly addNameRange     '0.9.1',
+432 silly addNameRange     '0.9.2',
+432 silly addNameRange     '0.10.0',
+432 silly addNameRange     '1.0.0-rc.1',
+432 silly addNameRange     '1.0.0-rc.2',
+432 silly addNameRange     '1.0.0-rc.3',
+432 silly addNameRange     '1.0.0',
+432 silly addNameRange     '1.0.1',
+432 silly addNameRange     '1.1.0',
+432 silly addNameRange     '1.1.1',
+432 silly addNameRange     '1.2.0',
+432 silly addNameRange     '1.2.1',
+432 silly addNameRange     '1.3.0',
+432 silly addNameRange     '1.3.1',
+432 silly addNameRange     '2.0.0',
+432 silly addNameRange     '2.1.0',
+432 silly addNameRange     '2.2.0',
+432 silly addNameRange     '2.2.1',
+432 silly addNameRange     '2.3.0',
+432 silly addNameRange     '2.4.0',
+432 silly addNameRange     '2.4.1',
+432 silly addNameRange     '3.0.0',
+432 silly addNameRange     '3.0.1',
+432 silly addNameRange     '3.1.0',
+432 silly addNameRange     '3.2.0',
+432 silly addNameRange     '3.3.0',
+432 silly addNameRange     '3.3.1',
+432 silly addNameRange     '3.4.0',
+432 silly addNameRange     '3.5.0',
+432 silly addNameRange     '3.6.0',
+432 silly addNameRange     '1.0.2',
+432 silly addNameRange     '3.7.0',
+432 silly addNameRange     '2.4.2',
+432 silly addNameRange     '3.8.0',
+432 silly addNameRange     '3.9.0',
+432 silly addNameRange     '3.9.1',
+432 silly addNameRange     '3.9.2',
+432 silly addNameRange     '3.9.3',
+432 silly addNameRange     '3.10.0',
+432 silly addNameRange     '3.10.1',
+432 silly addNameRange     '4.0.0',
+432 silly addNameRange     '4.0.1',
+432 silly addNameRange     '4.1.0',
+432 silly addNameRange     '4.2.0',
+432 silly addNameRange     '4.2.1',
+432 silly addNameRange     '4.3.0',
+432 silly addNameRange     '4.4.0',
+432 silly addNameRange     '4.5.0',
+432 silly addNameRange     '4.5.1',
+432 silly addNameRange     '4.6.0',
+432 silly addNameRange     '4.6.1',
+432 silly addNameRange     '4.7.0',
+432 silly addNameRange     '4.8.0',
+432 silly addNameRange     '4.8.1',
+432 silly addNameRange     '4.8.2',
+432 silly addNameRange     '4.9.0',
+432 silly addNameRange     '4.10.0',
+432 silly addNameRange     '4.11.0',
+432 silly addNameRange     '4.11.1',
+432 silly addNameRange     '4.11.2',
+432 silly addNameRange     '4.12.0',
+432 silly addNameRange     '4.13.0',
+432 silly addNameRange     '4.13.1',
+432 silly addNameRange     '4.14.0',
+432 silly addNameRange     '4.14.1',
+432 silly addNameRange     '4.14.2',
+432 silly addNameRange     '4.15.0',
+432 silly addNameRange     '4.16.0',
+432 silly addNameRange     '4.16.1',
+432 silly addNameRange     '4.16.2',
+432 silly addNameRange     '4.16.3',
+432 silly addNameRange     '4.16.4',
+432 silly addNameRange     '4.16.5',
+432 silly addNameRange     '4.16.6',
+432 silly addNameRange     '4.17.0',
+432 silly addNameRange     '4.17.1',
+432 silly addNameRange     '4.17.2',
+432 silly addNameRange     '4.17.3',
+432 silly addNameRange     '4.17.4',
+432 silly addNameRange     '4.17.5',
+432 silly addNameRange     '4.17.9',
+432 silly addNameRange     '4.17.10' ] ]
+433 silly addNamed lodash@4.17.10
+434 verbose addNamed "4.17.10" is a plain semver version for lodash
+435 silly cache afterAdd lodash@4.17.10
+436 verbose afterAdd /home/megna/.npm/lodash/4.17.10/package/package.json not in flight; writing
+437 verbose afterAdd /home/megna/.npm/lodash/4.17.10/package/package.json written
+438 silly fetchNamedPackageData mongodb-core
+439 silly mapToRegistry name mongodb-core
+440 silly mapToRegistry using default registry
+441 silly mapToRegistry registry https://registry.npmjs.org/
+442 silly mapToRegistry uri https://registry.npmjs.org/mongodb-core
+443 verbose request uri https://registry.npmjs.org/mongodb-core
+444 verbose request no auth needed
+445 info attempt registry request try #1 at 4:24:15 PM
+446 verbose etag "5af1e220-4315e"
+447 verbose lastModified Tue, 8 May 2018 17:45:04 GMT
+448 http request GET https://registry.npmjs.org/mongodb-core
+449 http 304 https://registry.npmjs.org/mongodb-core
+450 verbose headers { date: 'Wed, 09 May 2018 10:55:11 GMT',
+450 verbose headers   via: '1.1 varnish',
+450 verbose headers   'cache-control': 'max-age=300',
+450 verbose headers   etag: '"5af1e220-4315e"',
+450 verbose headers   age: '3417',
+450 verbose headers   connection: 'keep-alive',
+450 verbose headers   'x-served-by': 'cache-sin18031-SIN',
+450 verbose headers   'x-cache': 'HIT',
+450 verbose headers   'x-cache-hits': '8',
+450 verbose headers   'x-timer': 'S1525863311.339022,VS0,VE0',
+450 verbose headers   vary: 'Accept-Encoding, Accept' }
+451 silly get cb [ 304,
+451 silly get   { date: 'Wed, 09 May 2018 10:55:11 GMT',
+451 silly get     via: '1.1 varnish',
+451 silly get     'cache-control': 'max-age=300',
+451 silly get     etag: '"5af1e220-4315e"',
+451 silly get     age: '3417',
+451 silly get     connection: 'keep-alive',
+451 silly get     'x-served-by': 'cache-sin18031-SIN',
+451 silly get     'x-cache': 'HIT',
+451 silly get     'x-cache-hits': '8',
+451 silly get     'x-timer': 'S1525863311.339022,VS0,VE0',
+451 silly get     vary: 'Accept-Encoding, Accept' } ]
+452 verbose etag https://registry.npmjs.org/mongodb-core from cache
+453 verbose get saving mongodb-core to /home/megna/.npm/registry.npmjs.org/mongodb-core/.cache.json
+454 silly resolveWithNewModule mongodb-core@3.0.7 checking installable status
+455 silly cache add args [ 'mongodb-core@3.0.7', null ]
+456 verbose cache add spec mongodb-core@3.0.7
+457 silly cache add parsed spec Result {
+457 silly cache add   raw: 'mongodb-core@3.0.7',
+457 silly cache add   scope: null,
+457 silly cache add   name: 'mongodb-core',
+457 silly cache add   rawSpec: '3.0.7',
+457 silly cache add   spec: '3.0.7',
+457 silly cache add   type: 'version' }
+458 silly addNamed mongodb-core@3.0.7
+459 verbose addNamed "3.0.7" is a plain semver version for mongodb-core
+460 silly mapToRegistry name mongodb-core
+461 silly mapToRegistry using default registry
+462 silly mapToRegistry registry https://registry.npmjs.org/
+463 silly mapToRegistry uri https://registry.npmjs.org/mongodb-core
+464 verbose addNameVersion registry:https://registry.npmjs.org/mongodb-core not in flight; fetching
+465 verbose get https://registry.npmjs.org/mongodb-core not expired, no request
+466 silly cache afterAdd mongodb-core@3.0.7
+467 verbose afterAdd /home/megna/.npm/mongodb-core/3.0.7/package/package.json not in flight; writing
+468 verbose afterAdd /home/megna/.npm/mongodb-core/3.0.7/package/package.json written
+469 silly fetchNamedPackageData require_optional
+470 silly mapToRegistry name require_optional
+471 silly mapToRegistry using default registry
+472 silly mapToRegistry registry https://registry.npmjs.org/
+473 silly mapToRegistry uri https://registry.npmjs.org/require_optional
+474 verbose request uri https://registry.npmjs.org/require_optional
+475 verbose request no auth needed
+476 info attempt registry request try #1 at 4:24:15 PM
+477 verbose etag "5940e121-fb1"
+478 verbose lastModified Wed, 14 Jun 2017 7:09:21 GMT
+479 http request GET https://registry.npmjs.org/require_optional
+480 http 304 https://registry.npmjs.org/require_optional
+481 verbose headers { date: 'Wed, 09 May 2018 10:55:11 GMT',
+481 verbose headers   via: '1.1 varnish',
+481 verbose headers   'cache-control': 'max-age=300',
+481 verbose headers   etag: '"5940e121-fb1"',
+481 verbose headers   age: '12234',
+481 verbose headers   connection: 'keep-alive',
+481 verbose headers   'x-served-by': 'cache-sin18021-SIN',
+481 verbose headers   'x-cache': 'HIT',
+481 verbose headers   'x-cache-hits': '26',
+481 verbose headers   'x-timer': 'S1525863312.591549,VS0,VE0',
+481 verbose headers   vary: 'Accept-Encoding, Accept' }
+482 silly get cb [ 304,
+482 silly get   { date: 'Wed, 09 May 2018 10:55:11 GMT',
+482 silly get     via: '1.1 varnish',
+482 silly get     'cache-control': 'max-age=300',
+482 silly get     etag: '"5940e121-fb1"',
+482 silly get     age: '12234',
+482 silly get     connection: 'keep-alive',
+482 silly get     'x-served-by': 'cache-sin18021-SIN',
+482 silly get     'x-cache': 'HIT',
+482 silly get     'x-cache-hits': '26',
+482 silly get     'x-timer': 'S1525863312.591549,VS0,VE0',
+482 silly get     vary: 'Accept-Encoding, Accept' } ]
+483 verbose etag https://registry.npmjs.org/require_optional from cache
+484 verbose get saving require_optional to /home/megna/.npm/registry.npmjs.org/require_optional/.cache.json
+485 silly resolveWithNewModule require_optional@1.0.1 checking installable status
+486 silly cache add args [ 'require_optional@^1.0.1', null ]
+487 verbose cache add spec require_optional@^1.0.1
+488 silly cache add parsed spec Result {
+488 silly cache add   raw: 'require_optional@^1.0.1',
+488 silly cache add   scope: null,
+488 silly cache add   name: 'require_optional',
+488 silly cache add   rawSpec: '^1.0.1',
+488 silly cache add   spec: '>=1.0.1 <2.0.0',
+488 silly cache add   type: 'range' }
+489 silly addNamed require_optional@>=1.0.1 <2.0.0
+490 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for require_optional
+491 silly addNameRange { name: 'require_optional',
+491 silly addNameRange   range: '>=1.0.1 <2.0.0',
+491 silly addNameRange   hasData: false }
+492 silly mapToRegistry name require_optional
+493 silly mapToRegistry using default registry
+494 silly mapToRegistry registry https://registry.npmjs.org/
+495 silly mapToRegistry uri https://registry.npmjs.org/require_optional
+496 verbose addNameRange registry:https://registry.npmjs.org/require_optional not in flight; fetching
+497 verbose get https://registry.npmjs.org/require_optional not expired, no request
+498 silly addNameRange number 2 { name: 'require_optional',
+498 silly addNameRange   range: '>=1.0.1 <2.0.0',
+498 silly addNameRange   hasData: true }
+499 silly addNameRange versions [ 'require_optional', [ '1.0.0', '1.0.1' ] ]
+500 silly addNamed require_optional@1.0.1
+501 verbose addNamed "1.0.1" is a plain semver version for require_optional
+502 silly cache afterAdd require_optional@1.0.1
+503 verbose afterAdd /home/megna/.npm/require_optional/1.0.1/package/package.json not in flight; writing
+504 verbose afterAdd /home/megna/.npm/require_optional/1.0.1/package/package.json written
+505 silly fetchNamedPackageData semver
+506 silly mapToRegistry name semver
+507 silly mapToRegistry using default registry
+508 silly mapToRegistry registry https://registry.npmjs.org/
+509 silly mapToRegistry uri https://registry.npmjs.org/semver
+510 silly fetchNamedPackageData resolve-from
+511 silly mapToRegistry name resolve-from
+512 silly mapToRegistry using default registry
+513 silly mapToRegistry registry https://registry.npmjs.org/
+514 silly mapToRegistry uri https://registry.npmjs.org/resolve-from
+515 verbose request uri https://registry.npmjs.org/resolve-from
+516 verbose request no auth needed
+517 info attempt registry request try #1 at 4:24:16 PM
+518 verbose etag "5a76919c-2318"
+519 verbose lastModified Sun, 4 Feb 2018 4:52:44 GMT
+520 http request GET https://registry.npmjs.org/resolve-from
+521 verbose request uri https://registry.npmjs.org/semver
+522 verbose request no auth needed
+523 info attempt registry request try #1 at 4:24:16 PM
+524 verbose etag "5ab1d0c9-131d8"
+525 verbose lastModified Wed, 21 Mar 2018 3:26:01 GMT
+526 http request GET https://registry.npmjs.org/semver
+527 http 304 https://registry.npmjs.org/semver
+528 verbose headers { date: 'Wed, 09 May 2018 10:55:11 GMT',
+528 verbose headers   via: '1.1 varnish',
+528 verbose headers   'cache-control': 'max-age=300',
+528 verbose headers   etag: '"5ab1d0c9-131d8"',
+528 verbose headers   age: '4850',
+528 verbose headers   connection: 'keep-alive',
+528 verbose headers   'x-served-by': 'cache-sin18031-SIN',
+528 verbose headers   'x-cache': 'HIT',
+528 verbose headers   'x-cache-hits': '252',
+528 verbose headers   'x-timer': 'S1525863312.901761,VS0,VE0',
+528 verbose headers   vary: 'Accept-Encoding, Accept' }
+529 silly get cb [ 304,
+529 silly get   { date: 'Wed, 09 May 2018 10:55:11 GMT',
+529 silly get     via: '1.1 varnish',
+529 silly get     'cache-control': 'max-age=300',
+529 silly get     etag: '"5ab1d0c9-131d8"',
+529 silly get     age: '4850',
+529 silly get     connection: 'keep-alive',
+529 silly get     'x-served-by': 'cache-sin18031-SIN',
+529 silly get     'x-cache': 'HIT',
+529 silly get     'x-cache-hits': '252',
+529 silly get     'x-timer': 'S1525863312.901761,VS0,VE0',
+529 silly get     vary: 'Accept-Encoding, Accept' } ]
+530 verbose etag https://registry.npmjs.org/semver from cache
+531 verbose get saving semver to /home/megna/.npm/registry.npmjs.org/semver/.cache.json
+532 http 304 https://registry.npmjs.org/resolve-from
+533 verbose headers { date: 'Wed, 09 May 2018 10:55:11 GMT',
+533 verbose headers   via: '1.1 varnish',
+533 verbose headers   'cache-control': 'max-age=300',
+533 verbose headers   etag: '"5a76919c-2318"',
+533 verbose headers   age: '6793',
+533 verbose headers   connection: 'keep-alive',
+533 verbose headers   'x-served-by': 'cache-sin18022-SIN',
+533 verbose headers   'x-cache': 'HIT',
+533 verbose headers   'x-cache-hits': '103',
+533 verbose headers   'x-timer': 'S1525863312.901632,VS0,VE0',
+533 verbose headers   vary: 'Accept-Encoding, Accept' }
+534 silly get cb [ 304,
+534 silly get   { date: 'Wed, 09 May 2018 10:55:11 GMT',
+534 silly get     via: '1.1 varnish',
+534 silly get     'cache-control': 'max-age=300',
+534 silly get     etag: '"5a76919c-2318"',
+534 silly get     age: '6793',
+534 silly get     connection: 'keep-alive',
+534 silly get     'x-served-by': 'cache-sin18022-SIN',
+534 silly get     'x-cache': 'HIT',
+534 silly get     'x-cache-hits': '103',
+534 silly get     'x-timer': 'S1525863312.901632,VS0,VE0',
+534 silly get     vary: 'Accept-Encoding, Accept' } ]
+535 verbose etag https://registry.npmjs.org/resolve-from from cache
+536 verbose get saving resolve-from to /home/megna/.npm/registry.npmjs.org/resolve-from/.cache.json
+537 silly resolveWithNewModule semver@5.5.0 checking installable status
+538 silly cache add args [ 'semver@^5.1.0', null ]
+539 verbose cache add spec semver@^5.1.0
+540 silly cache add parsed spec Result {
+540 silly cache add   raw: 'semver@^5.1.0',
+540 silly cache add   scope: null,
+540 silly cache add   name: 'semver',
+540 silly cache add   rawSpec: '^5.1.0',
+540 silly cache add   spec: '>=5.1.0 <6.0.0',
+540 silly cache add   type: 'range' }
+541 silly addNamed semver@>=5.1.0 <6.0.0
+542 verbose addNamed ">=5.1.0 <6.0.0" is a valid semver range for semver
+543 silly addNameRange { name: 'semver', range: '>=5.1.0 <6.0.0', hasData: false }
+544 silly mapToRegistry name semver
+545 silly mapToRegistry using default registry
+546 silly mapToRegistry registry https://registry.npmjs.org/
+547 silly mapToRegistry uri https://registry.npmjs.org/semver
+548 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+549 silly resolveWithNewModule resolve-from@2.0.0 checking installable status
+550 silly cache add args [ 'resolve-from@^2.0.0', null ]
+551 verbose cache add spec resolve-from@^2.0.0
+552 silly cache add parsed spec Result {
+552 silly cache add   raw: 'resolve-from@^2.0.0',
+552 silly cache add   scope: null,
+552 silly cache add   name: 'resolve-from',
+552 silly cache add   rawSpec: '^2.0.0',
+552 silly cache add   spec: '>=2.0.0 <3.0.0',
+552 silly cache add   type: 'range' }
+553 silly addNamed resolve-from@>=2.0.0 <3.0.0
+554 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for resolve-from
+555 silly addNameRange { name: 'resolve-from', range: '>=2.0.0 <3.0.0', hasData: false }
+556 silly mapToRegistry name resolve-from
+557 silly mapToRegistry using default registry
+558 silly mapToRegistry registry https://registry.npmjs.org/
+559 silly mapToRegistry uri https://registry.npmjs.org/resolve-from
+560 verbose addNameRange registry:https://registry.npmjs.org/resolve-from not in flight; fetching
+561 verbose get https://registry.npmjs.org/resolve-from not expired, no request
+562 silly addNameRange number 2 { name: 'resolve-from', range: '>=2.0.0 <3.0.0', hasData: true }
+563 silly addNameRange versions [ 'resolve-from',
+563 silly addNameRange   [ '1.0.0', '1.0.1', '2.0.0', '3.0.0', '4.0.0' ] ]
+564 silly addNamed resolve-from@2.0.0
+565 verbose addNamed "2.0.0" is a plain semver version for resolve-from
+566 verbose get https://registry.npmjs.org/semver not expired, no request
+567 silly addNameRange number 2 { name: 'semver', range: '>=5.1.0 <6.0.0', hasData: true }
+568 silly addNameRange versions [ 'semver',
+568 silly addNameRange   [ '1.0.0',
+568 silly addNameRange     '1.0.1',
+568 silly addNameRange     '1.0.2',
+568 silly addNameRange     '1.0.3',
+568 silly addNameRange     '1.0.4',
+568 silly addNameRange     '1.0.5',
+568 silly addNameRange     '1.0.6',
+568 silly addNameRange     '1.0.7',
+568 silly addNameRange     '1.0.8',
+568 silly addNameRange     '1.0.9',
+568 silly addNameRange     '1.0.10',
+568 silly addNameRange     '1.0.11',
+568 silly addNameRange     '1.0.12',
+568 silly addNameRange     '1.0.13',
+568 silly addNameRange     '1.0.14',
+568 silly addNameRange     '1.1.0',
+568 silly addNameRange     '1.1.1',
+568 silly addNameRange     '1.1.2',
+568 silly addNameRange     '1.1.3',
+568 silly addNameRange     '1.1.4',
+568 silly addNameRange     '2.0.0-alpha',
+568 silly addNameRange     '2.0.0-beta',
+568 silly addNameRange     '2.0.1',
+568 silly addNameRange     '2.0.2',
+568 silly addNameRange     '2.0.3',
+568 silly addNameRange     '2.0.4',
+568 silly addNameRange     '2.0.5',
+568 silly addNameRange     '2.0.6',
+568 silly addNameRange     '2.0.7',
+568 silly addNameRange     '2.0.8',
+568 silly addNameRange     '2.0.9',
+568 silly addNameRange     '2.0.10',
+568 silly addNameRange     '2.0.11',
+568 silly addNameRange     '2.1.0',
+568 silly addNameRange     '2.2.0',
+568 silly addNameRange     '2.2.1',
+568 silly addNameRange     '2.3.0',
+568 silly addNameRange     '2.3.1',
+568 silly addNameRange     '2.3.2',
+568 silly addNameRange     '3.0.0',
+568 silly addNameRange     '3.0.1',
+568 silly addNameRange     '4.0.0',
+568 silly addNameRange     '4.0.2',
+568 silly addNameRange     '4.0.3',
+568 silly addNameRange     '4.1.0',
+568 silly addNameRange     '4.1.1',
+568 silly addNameRange     '4.2.0',
+568 silly addNameRange     '4.2.1',
+568 silly addNameRange     '4.2.2',
+568 silly addNameRange     '4.3.0',
+568 silly addNameRange     '4.3.1',
+568 silly addNameRange     '4.3.2',
+568 silly addNameRange     '4.3.3',
+568 silly addNameRange     '4.3.4',
+568 silly addNameRange     '4.3.5',
+568 silly addNameRange     '4.3.6',
+568 silly addNameRange     '5.0.0',
+568 silly addNameRange     '5.0.1',
+568 silly addNameRange     '5.0.2',
+568 silly addNameRange     '5.0.3',
+568 silly addNameRange     '5.1.0',
+568 silly addNameRange     '5.1.1',
+568 silly addNameRange     '5.2.0',
+568 silly addNameRange     '5.3.0',
+568 silly addNameRange     '5.4.0',
+568 silly addNameRange     '5.4.1',
+568 silly addNameRange     '5.5.0' ] ]
+569 silly addNamed semver@5.5.0
+570 verbose addNamed "5.5.0" is a plain semver version for semver
+571 silly cache afterAdd resolve-from@2.0.0
+572 verbose afterAdd /home/megna/.npm/resolve-from/2.0.0/package/package.json not in flight; writing
+573 verbose afterAdd /home/megna/.npm/resolve-from/2.0.0/package/package.json written
+574 silly cache afterAdd semver@5.5.0
+575 verbose afterAdd /home/megna/.npm/semver/5.5.0/package/package.json not in flight; writing
+576 verbose afterAdd /home/megna/.npm/semver/5.5.0/package/package.json written
+577 silly fetchNamedPackageData bluebird
+578 silly mapToRegistry name bluebird
+579 silly mapToRegistry using default registry
+580 silly mapToRegistry registry https://registry.npmjs.org/
+581 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+582 silly fetchNamedPackageData debug
+583 silly mapToRegistry name debug
+584 silly mapToRegistry using default registry
+585 silly mapToRegistry registry https://registry.npmjs.org/
+586 silly mapToRegistry uri https://registry.npmjs.org/debug
+587 silly fetchNamedPackageData sliced
+588 silly mapToRegistry name sliced
+589 silly mapToRegistry using default registry
+590 silly mapToRegistry registry https://registry.npmjs.org/
+591 silly mapToRegistry uri https://registry.npmjs.org/sliced
+592 silly resolveWithNewModule sliced@0.0.5 checking installable status
+593 silly cache add args [ 'sliced@0.0.5', null ]
+594 verbose cache add spec sliced@0.0.5
+595 silly cache add parsed spec Result {
+595 silly cache add   raw: 'sliced@0.0.5',
+595 silly cache add   scope: null,
+595 silly cache add   name: 'sliced',
+595 silly cache add   rawSpec: '0.0.5',
+595 silly cache add   spec: '0.0.5',
+595 silly cache add   type: 'version' }
+596 silly addNamed sliced@0.0.5
+597 verbose addNamed "0.0.5" is a plain semver version for sliced
+598 silly mapToRegistry name sliced
+599 silly mapToRegistry using default registry
+600 silly mapToRegistry registry https://registry.npmjs.org/
+601 silly mapToRegistry uri https://registry.npmjs.org/sliced
+602 verbose addNameVersion registry:https://registry.npmjs.org/sliced not in flight; fetching
+603 verbose request uri https://registry.npmjs.org/debug
+604 verbose request no auth needed
+605 info attempt registry request try #1 at 4:24:16 PM
+606 verbose etag "5ae1cf13-1954d"
+607 verbose lastModified Thu, 26 Apr 2018 13:07:31 GMT
+608 http request GET https://registry.npmjs.org/debug
+609 verbose get https://registry.npmjs.org/sliced not expired, no request
+610 verbose request uri https://registry.npmjs.org/bluebird
+611 verbose request no auth needed
+612 info attempt registry request try #1 at 4:24:16 PM
+613 verbose etag "5abb0714-61716"
+614 verbose lastModified Wed, 28 Mar 2018 3:08:04 GMT
+615 http request GET https://registry.npmjs.org/bluebird
+616 silly cache afterAdd sliced@0.0.5
+617 verbose afterAdd /home/megna/.npm/sliced/0.0.5/package/package.json not in flight; writing
+618 verbose afterAdd /home/megna/.npm/sliced/0.0.5/package/package.json written
+619 http 304 https://registry.npmjs.org/debug
+620 verbose headers { date: 'Wed, 09 May 2018 10:55:12 GMT',
+620 verbose headers   via: '1.1 varnish',
+620 verbose headers   'cache-control': 'max-age=300',
+620 verbose headers   etag: '"5ae1cf13-1954d"',
+620 verbose headers   age: '4638',
+620 verbose headers   connection: 'keep-alive',
+620 verbose headers   'x-served-by': 'cache-ams4426-AMS',
+620 verbose headers   'x-cache': 'HIT',
+620 verbose headers   'x-cache-hits': '130',
+620 verbose headers   'x-timer': 'S1525863312.451171,VS0,VE0',
+620 verbose headers   vary: 'Accept-Encoding, Accept' }
+621 silly get cb [ 304,
+621 silly get   { date: 'Wed, 09 May 2018 10:55:12 GMT',
+621 silly get     via: '1.1 varnish',
+621 silly get     'cache-control': 'max-age=300',
+621 silly get     etag: '"5ae1cf13-1954d"',
+621 silly get     age: '4638',
+621 silly get     connection: 'keep-alive',
+621 silly get     'x-served-by': 'cache-ams4426-AMS',
+621 silly get     'x-cache': 'HIT',
+621 silly get     'x-cache-hits': '130',
+621 silly get     'x-timer': 'S1525863312.451171,VS0,VE0',
+621 silly get     vary: 'Accept-Encoding, Accept' } ]
+622 verbose etag https://registry.npmjs.org/debug from cache
+623 verbose get saving debug to /home/megna/.npm/registry.npmjs.org/debug/.cache.json
+624 silly resolveWithNewModule debug@2.6.9 checking installable status
+625 silly cache add args [ 'debug@2.6.9', null ]
+626 verbose cache add spec debug@2.6.9
+627 silly cache add parsed spec Result {
+627 silly cache add   raw: 'debug@2.6.9',
+627 silly cache add   scope: null,
+627 silly cache add   name: 'debug',
+627 silly cache add   rawSpec: '2.6.9',
+627 silly cache add   spec: '2.6.9',
+627 silly cache add   type: 'version' }
+628 silly addNamed debug@2.6.9
+629 verbose addNamed "2.6.9" is a plain semver version for debug
+630 silly mapToRegistry name debug
+631 silly mapToRegistry using default registry
+632 silly mapToRegistry registry https://registry.npmjs.org/
+633 silly mapToRegistry uri https://registry.npmjs.org/debug
+634 verbose addNameVersion registry:https://registry.npmjs.org/debug not in flight; fetching
+635 verbose get https://registry.npmjs.org/debug not expired, no request
+636 silly cache afterAdd debug@2.6.9
+637 verbose afterAdd /home/megna/.npm/debug/2.6.9/package/package.json not in flight; writing
+638 verbose afterAdd /home/megna/.npm/debug/2.6.9/package/package.json written
+639 http 304 https://registry.npmjs.org/bluebird
+640 verbose headers { date: 'Wed, 09 May 2018 10:55:12 GMT',
+640 verbose headers   via: '1.1 varnish',
+640 verbose headers   'cache-control': 'max-age=300',
+640 verbose headers   etag: '"5abb0714-61716"',
+640 verbose headers   age: '9213',
+640 verbose headers   connection: 'keep-alive',
+640 verbose headers   'x-served-by': 'cache-ams4421-AMS',
+640 verbose headers   'x-cache': 'HIT',
+640 verbose headers   'x-cache-hits': '27',
+640 verbose headers   'x-timer': 'S1525863312.496857,VS0,VE0',
+640 verbose headers   vary: 'Accept-Encoding, Accept' }
+641 silly get cb [ 304,
+641 silly get   { date: 'Wed, 09 May 2018 10:55:12 GMT',
+641 silly get     via: '1.1 varnish',
+641 silly get     'cache-control': 'max-age=300',
+641 silly get     etag: '"5abb0714-61716"',
+641 silly get     age: '9213',
+641 silly get     connection: 'keep-alive',
+641 silly get     'x-served-by': 'cache-ams4421-AMS',
+641 silly get     'x-cache': 'HIT',
+641 silly get     'x-cache-hits': '27',
+641 silly get     'x-timer': 'S1525863312.496857,VS0,VE0',
+641 silly get     vary: 'Accept-Encoding, Accept' } ]
+642 verbose etag https://registry.npmjs.org/bluebird from cache
+643 verbose get saving bluebird to /home/megna/.npm/registry.npmjs.org/bluebird/.cache.json
+644 silly resolveWithNewModule bluebird@3.5.0 checking installable status
+645 silly cache add args [ 'bluebird@3.5.0', null ]
+646 verbose cache add spec bluebird@3.5.0
+647 silly cache add parsed spec Result {
+647 silly cache add   raw: 'bluebird@3.5.0',
+647 silly cache add   scope: null,
+647 silly cache add   name: 'bluebird',
+647 silly cache add   rawSpec: '3.5.0',
+647 silly cache add   spec: '3.5.0',
+647 silly cache add   type: 'version' }
+648 silly addNamed bluebird@3.5.0
+649 verbose addNamed "3.5.0" is a plain semver version for bluebird
+650 silly mapToRegistry name bluebird
+651 silly mapToRegistry using default registry
+652 silly mapToRegistry registry https://registry.npmjs.org/
+653 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+654 verbose addNameVersion registry:https://registry.npmjs.org/bluebird not in flight; fetching
+655 verbose get https://registry.npmjs.org/bluebird not expired, no request
+656 silly cache afterAdd bluebird@3.5.0
+657 verbose afterAdd /home/megna/.npm/bluebird/3.5.0/package/package.json not in flight; writing
+658 verbose afterAdd /home/megna/.npm/bluebird/3.5.0/package/package.json written
+659 silly loadAllDepsIntoIdealTree Finishing
+660 silly idealTree:prePrune lib
+660 silly idealTree:prePrune └─┬ mongoose@5.0.17
+660 silly idealTree:prePrune   ├── async@2.1.4
+660 silly idealTree:prePrune   ├── bluebird@3.5.0
+660 silly idealTree:prePrune   ├── bson@1.0.6
+660 silly idealTree:prePrune   ├── debug@2.6.9
+660 silly idealTree:prePrune   ├── kareem@2.0.7
+660 silly idealTree:prePrune   ├── lodash.get@4.4.2
+660 silly idealTree:prePrune   ├── lodash@4.17.10
+660 silly idealTree:prePrune   ├── mongodb-core@3.0.7
+660 silly idealTree:prePrune   ├── mongodb@3.0.7
+660 silly idealTree:prePrune   ├── mongoose-legacy-pluralize@1.0.2
+660 silly idealTree:prePrune   ├── mpath@0.4.1
+660 silly idealTree:prePrune   ├─┬ mquery@3.0.0
+660 silly idealTree:prePrune   │ └── sliced@0.0.5
+660 silly idealTree:prePrune   ├── ms@2.0.0
+660 silly idealTree:prePrune   ├── regexp-clone@0.0.1
+660 silly idealTree:prePrune   ├── require_optional@1.0.1
+660 silly idealTree:prePrune   ├── resolve-from@2.0.0
+660 silly idealTree:prePrune   ├── semver@5.5.0
+660 silly idealTree:prePrune   └── sliced@1.0.1
+661 silly loadIdealTree Finishing
+662 silly currentTree lib
+663 silly idealTree lib
+663 silly idealTree └─┬ mongoose@5.0.17
+663 silly idealTree   ├── async@2.1.4
+663 silly idealTree   ├── bluebird@3.5.0
+663 silly idealTree   ├── bson@1.0.6
+663 silly idealTree   ├── debug@2.6.9
+663 silly idealTree   ├── kareem@2.0.7
+663 silly idealTree   ├── lodash.get@4.4.2
+663 silly idealTree   ├── lodash@4.17.10
+663 silly idealTree   ├── mongodb-core@3.0.7
+663 silly idealTree   ├── mongodb@3.0.7
+663 silly idealTree   ├── mongoose-legacy-pluralize@1.0.2
+663 silly idealTree   ├── mpath@0.4.1
+663 silly idealTree   ├─┬ mquery@3.0.0
+663 silly idealTree   │ └── sliced@0.0.5
+663 silly idealTree   ├── ms@2.0.0
+663 silly idealTree   ├── regexp-clone@0.0.1
+663 silly idealTree   ├── require_optional@1.0.1
+663 silly idealTree   ├── resolve-from@2.0.0
+663 silly idealTree   ├── semver@5.5.0
+663 silly idealTree   └── sliced@1.0.1
+664 silly generateActionsToTake Starting
+665 silly install generateActionsToTake
+666 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+667 silly rollbackFailedOptional Starting
+668 silly rollbackFailedOptional Finishing
+669 silly runTopLevelLifecycles Starting
+670 silly runTopLevelLifecycles Finishing
+671 silly install printInstalled
+672 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+672 verbose stack     at Error (native)
+673 verbose cwd /home/megna/my_projects/apiCreation/models
+674 error Linux 4.4.0-124-generic
+675 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "mongoose"
+676 error node v4.2.6
+677 error npm  v3.5.2
+678 error path /usr/local/lib/node_modules
+679 error code EACCES
+680 error errno -13
+681 error syscall access
+682 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+682 error     at Error (native)
+682 error  { [Error: EACCES: permission denied, access '/usr/local/lib/node_modules']
+682 error   errno: -13,
+682 error   code: 'EACCES',
+682 error   syscall: 'access',
+682 error   path: '/usr/local/lib/node_modules' }
+683 error Please try running this command again as root/Administrator.
+684 verbose exit [ -13, true ]
