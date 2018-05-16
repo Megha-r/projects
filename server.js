@@ -118,16 +118,16 @@ router.route('/authenticate')
 
 
 
-    // function checkRole(roleOfUser){
-    //    if(roleOfUser == "user")
-    //    return next()
+// function checkRole(roleOfUser){
+//    if(roleOfUser == "user")
+//    return next()
 
-    //    else  
-    //   //return res.json({ success: false, message: 'Access to get all users record not granted' });
-    //   console.log("Not a user");
-    //   return 0
-     
-    // }
+//    else  
+//   //return res.json({ success: false, message: 'Access to get all users record not granted' });
+//   console.log("Not a user");
+//   return 0
+
+// }
 
 
 
@@ -140,26 +140,26 @@ router.use('/users', function (req, res, next) {
         // verifies secret and checks exp
         jwt.verify(token, app.get('mySecret'), function (err, decoded) {
             console.log(token);
-           //console.log("*********",decoded);
+            //console.log("*********",decoded);
             if (err) {
                 return res.json({ success: false, message: 'Failed to authenticate token.' });
             }
             else {
                 req.decoded = decoded;
-                console.log("***************************",decoded.id);
+                console.log("***************************", decoded.id);
                 var a_id = decoded.id;
                 if (decoded.id) {
-                    Users.findOne({_id:decoded.id},function(err,document){
+                    Users.findOne({ _id: decoded.id }, function (err, document) {
                         if (err) {
                             return res.json({ success: false, message: 'Failed to find user.' });
                         }
-                        else{
+                        else {
                             roleOfUser = document.role;
-                            if(document.role === "admin" && req.method === 'GET' ) 
-                        next( )
-                        else
-                        return res.json({ success: false, message: 'Access not granted' });
- 
+                            if ((document.role === "admin" && req.method === 'GET') || (document.role === "user" && req.method === 'PUT'))
+                                next()
+                            else
+                                return res.json({ success: false, message: 'Access not granted' });
+
                         }
                     })
                 }
@@ -183,25 +183,25 @@ router.use('/users', function (req, res, next) {
         });
 
     }
-})            
+})
 
 router.route('/users')
 
     .get(function (req, res) {
 
-       // console.log("<<<<<<<<<<<<", req.body)
+        // console.log("<<<<<<<<<<<<", req.body)
         Users.find(function (err, resp) {
             if (err)
                 res.status(err).send(err);
             //console.log('data----------->', resp.body);
             res.status(200).json(resp);
         })
-    // }
-    // };
+        // }
+        // };
     });
-   
 
-    router.route('/users/:users_id')
+
+router.route('/users/:users_id')
 
     .put(function (req, res) {
         console.log("ROLE OF USER", roleOfUser);
@@ -224,9 +224,9 @@ router.route('/users')
             });
         });
 
-    })  
-  
-  
+    })
+
+
     .get(function (req, res) {
         console.log("----------->", req.params.users_id)
         Users.findById(req.params.users_id, function (err, resp) {

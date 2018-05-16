@@ -8,5 +8,8 @@
     "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.0.17",
     "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-install": "2.1.0"
   }
 }
