@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-// import LoginBtn from './components/LoginBtn'
-// import SignupBtn from './components/SignupBtn' 
 import { Link, withRouter } from 'react-router-dom';
-// import styleButton from '../CSS/style.js';
 import {Button, Title, Background} from '../CSS/style.js';
-
 class HomePage extends Component {
     constructor(props){
         super(props);
@@ -18,9 +14,6 @@ class HomePage extends Component {
 handleClick1 = (event) => {
     this.props.history.push('/signup' );
 }
-    // handleClick = (event) => {
-    //     this.props.history.push('/signup');
-    // }
 
     render() {
         return (

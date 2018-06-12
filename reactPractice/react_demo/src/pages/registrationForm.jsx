@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import formStyling from '../CSS/formStyling.css';
+//import fetch from 'fetch';
 import { Button, Title, Background, Input } from '../CSS/style.js';
 //import {textbox} from '../components/textbox'
 
@@ -19,23 +20,19 @@ export default class RegistrationForm extends Component {
 
 
     handleName = (event) => {
-        const u_name = this.name.state.value;
         this.setState({
-            u_name: event.target.value,
+            u_name : event.target.value,
 
         });
     }
 
     handleEmail = (event) => {
-
         this.setState({
-
-            u_email: event.target.value,
+              u_email: event.target.value,
 
         });
     }
     handlePassword = (event) => {
-        const password = this.password.state.value;
         this.setState({
 
             u_password: event.target.value,
@@ -43,7 +40,6 @@ export default class RegistrationForm extends Component {
         });
     }
     handleCpass = (event) => {
-        const u_cpass = this.cpass.state.value;
         this.setState({
             u_cpass: event.target.value
         });
@@ -51,24 +47,51 @@ export default class RegistrationForm extends Component {
 
 
 
-    handleSubmit = (event) => {
+    handleSubmit = async(event) => {
         // alert('Submit Clicked' + this.state.value);
         event.preventDefault();
-
+        const info = {
+            // [
+            u_name : this.state.u_name,
+            u_email : this.state.u_email,
+            u_password : this.state.u_password,
+            u_cpass: this.state.u_cpass
+        }
+        // ];
+        console.log("D A T A--------------------------------", JSON.stringify(info))
         if( (!(this.state.u_name && this.state.u_email && this.state.u_password) == "") && (this.state.u_password === this.state.u_cpass)) 
         {
             console.log("condition true !!!!!!")
-            fetch(this.props.action, {
+            fetch('http://localhost:3002/api/register', {
+                method: 'POST',
                 headers: {
-                    'Accept': 'application/json',
-                    'content-type': 'application/json',
+                "Content-Type": "application/json"
                 },
-                method: 'post',
-                mode: 'no-cors',
-                body: JSON.stringify({ data: this.state })
-            });
-            console.log("------------- BODY DATA ---------", this.state);
-
+                // mode: 'no-cors',                
+                // {"u_name": this.state.u_name },
+                // {"u_email": this.state.u_name },
+                // {"u_password": this.state.u_name },
+                // {"u_cpass": this.state.u_name })
+                body: JSON.stringify(info),
+                
+            }).then(
+                function(response) {
+                    console.log(response)
+                  if (response.status !== 200) {
+                    console.log('------ problem----- Status Code: ' +
+                      response.status);
+                    return;
+                  }
+            
+                  // Examine the text in the response
+                  response.json().then(function(data) {
+                    console.log(data);
+                  });
+                }
+              )
+              .catch(function(err) {
+                console.log('Fetch Error :-S', err);
+              });
         }
         else {
             alert('FILL ALL FIELDS AND CONFIRM PASS MUST MATCH WITH PASSWORD');

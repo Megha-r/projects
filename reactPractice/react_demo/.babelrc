@@ -1,13 +1,17 @@
 {
-    "presets": ["node8"],
+    "presets": ["env","react"],
     "plugins":[
-        [
+        ["react",
+          "es2015",
+          "stage-0",
           "transform-runtime", 
           "transform-class-properties", {
           "spec": true,
           "polyfill": false,
           "regenerator": true
+       
           }
+
         ]
       ]
     

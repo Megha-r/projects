@@ -8,7 +8,7 @@ export class UserMethods {
     
     create = async (user) => {
         try{
-        console.log('use data', user)
+        //console.log('user data::::::::::::::::::', user)
         return await registerUsers.create(user);
         }
         catch(err)

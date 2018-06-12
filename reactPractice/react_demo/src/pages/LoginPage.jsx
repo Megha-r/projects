@@ -32,18 +32,18 @@ export default class LoginPage extends Component {
         console.log('login');
         return (
             <Background>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className="login">
               <Title> Login Page </Title>
             
                 <div  id="email">
                   
-          <Input type="text" value={this.state.valueEmail} onChange={this.handleChange} placeholder="Enter your Email" />
+          <Input type="text" id="emailInput" value={this.state.valueEmail} onChange={this.handleChange} placeholder="Enter your Email" name="email" />
                  
                 </div>  <br/>
 
                 <div id="pass">
                   
-          <Input type="text" value={this.state.valuePassword} onChange={this.handleChange} placeholder="Enter your Password" />
+          <Input type="text" id="passwordInput" value={this.state.valuePassword} onChange={this.handleChange} placeholder="Enter your Password" name="password"/>
                 
                 </div>  <br/>
 
