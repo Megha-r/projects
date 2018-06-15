@@ -10,7 +10,6 @@ let  register  = new mongoose.Schema({
 	u_email:{
 		type:String,
 		required: true,
-		unique: true,
 		validate: /^[a-zA-Z0-9]*[@][a-zA-Z]*[.][a-zA-Z]*/
 
 	},    
@@ -21,12 +20,7 @@ let  register  = new mongoose.Schema({
       
     },
     
-    u_cpass:{
-        type: String,
-        required: true,
-   
-    }, 
-
+ 
 });
 
 

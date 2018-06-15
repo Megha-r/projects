@@ -68,10 +68,7 @@ export default class RegistrationForm extends Component {
                 "Content-Type": "application/json"
                 },
                 // mode: 'no-cors',                
-                // {"u_name": this.state.u_name },
-                // {"u_email": this.state.u_name },
-                // {"u_password": this.state.u_name },
-                // {"u_cpass": this.state.u_name })
+                
                 body: JSON.stringify(info),
                 
             }).then(
@@ -103,7 +100,6 @@ export default class RegistrationForm extends Component {
     
 
   render() {
-        console.log('dataBeforeRendering---->>>>.', this.state);
         return (
             <Background>
                 <form onSubmit={this.handleSubmit}>

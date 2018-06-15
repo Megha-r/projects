@@ -43,7 +43,7 @@ export default class LoginPage extends Component {
 
                 <div id="pass">
                   
-          <Input type="text" id="passwordInput" value={this.state.valuePassword} onChange={this.handleChange} placeholder="Enter your Password" name="password"/>
+          <Input type="password" id="passwordInput" value={this.state.valuePassword} onChange={this.handleChange} placeholder="Enter your Password" name="password"/>
                 
                 </div>  <br/>
 

@@ -1,13 +1,18 @@
 {
-    "presets": ["env","react"],
+    "presets": [
+      "env",
+      "react"
+    ],
     "plugins":[
         ["react",
-          "es2015",
+          "react-intl",
           "stage-0",
+          "es2015",
+          "babel-plugin-styled-components",
           "transform-runtime", 
           "transform-class-properties", {
           "spec": true,
-          "polyfill": false,
+          "polyfill": true,
           "regenerator": true
        
           }
@@ -16,7 +21,4 @@
       ]
     
   }
-
-
-
 

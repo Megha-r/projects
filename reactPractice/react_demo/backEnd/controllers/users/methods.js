@@ -6,9 +6,9 @@ import { logger } from "../../logger";
 let result;
 export class UserMethods {
     
-    create = async (user) => {
+    createUser = async (user) => {
         try{
-        //console.log('user data::::::::::::::::::', user)
+        console.log('user data::::::::::::::::::', user)
         return await registerUsers.create(user);
         }
         catch(err)
@@ -19,8 +19,8 @@ export class UserMethods {
 
 
     read = async () => {
-      try {
-           const respon = await registerUsers.find({})
+      try {        
+            const respon = await registerUsers.find({})
             return respon;
             }
             catch (err){
