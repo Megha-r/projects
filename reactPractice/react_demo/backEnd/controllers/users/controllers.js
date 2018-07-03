@@ -8,7 +8,7 @@ class UserController extends UserMethods{
     userCreate = async (req,res) => {
         try {
             //console.log('body::::::::::::::', req.body);
-            const { u_name, u_email, u_password, u_cpass } = req.body;
+            const { u_name, u_email, u_password } = req.body;
             const user = {  u_name, 
                             u_email,
                             u_password,
@@ -16,7 +16,6 @@ class UserController extends UserMethods{
             };
             console.log("CREATE USER-------->",req.body);
             const response = await this.createUser(user);
-            console.log("2716537653781583133",response);
             res.status(200).json({ message:"Unique id of user created by mongo", response: user });
             //TODO handle success response
         } catch(err) {

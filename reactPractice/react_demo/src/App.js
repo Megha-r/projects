@@ -4,7 +4,7 @@ import './App.css';
 import SignupPage from './pages/registrationForm';
 import LoginPage from './pages/LoginPage';
 import HomePage from './pages/HomePage';
-import { BrowserRouter, Link, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 class App extends Component {

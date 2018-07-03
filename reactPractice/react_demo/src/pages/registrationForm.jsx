@@ -141,7 +141,7 @@ export default class RegistrationForm extends Component {
     }
 }
 
-RegistrationForm.defaultProps = {
-    action: 'http://localhost:3002/api/register',
-    method: 'post'
-};
+// RegistrationForm.defaultProps = {
+//     action: 'http://localhost:3002/api/register',
+//     method: 'post'
+// };
